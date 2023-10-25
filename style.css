@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.filters {
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.filters label, .filters select, .filters input, .filters button {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.filters select, .filters input[type="text"] {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.filters button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.filters button:hover {
+    background-color: #555;
+}
+
+.colleges {
+    border: 1px solid #ccc;
+    padding: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.college-item {
+    border-bottom: 1px solid #ccc;
+    padding: 1rem 0;
+}
+
+.college-name {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0.25rem;
+}
+
+.college-details {
+    font-style: italic;
+    color: #888;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    .filters {
+        padding: 1rem;
+    }
+
+    .colleges {
+        padding: 1rem;
+    }
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>College Buddy</h1>
+    </header>
+    <main>
+        <div class="filters">
+            <h2>Filter Options</h2>
+            <label for="location">Location:</label>
+            <input type="text" id="location" placeholder="Enter location">
+
+            <label for="course">Course:</label>
+            <select id="course">
+                <option value="Engineering">Engineering</option>
+                <option value="Business">Business</option>
+                <option value="Medicine">Medicine</option>
+                <!-- Add more options here -->
+            </select>
+
+            <button id="searchBtn">Search</button>
+        </div>
+
+        <div class="colleges">
+            <!-- College search results will be displayed here -->
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
